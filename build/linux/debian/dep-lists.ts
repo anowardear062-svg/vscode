@@ -11,6 +11,8 @@ export const additionalDeps = [
 	'libnss3 (>= 3.26)',
 	'libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3', // For Breakpad crash reports.
 	'xdg-utils (>= 1.0.2)', // OS integration
+	'bubblewrap', // agent command sandboxing
+	'socat', // agent command sandboxing
 ];
 
 // Based on https://source.chromium.org/chromium/chromium/src/+/main:chrome/installer/linux/debian/manual_recommends
